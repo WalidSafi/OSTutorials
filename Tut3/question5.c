@@ -26,13 +26,5 @@ int main() {
   int i = 0;
 
   puts("Please enter The students ID and grade");
-
-  for (i = 0; i < num_Students; i++) {
-    printf("Student : %d\n",i+1 );
-    printf("ID: ");
-    scanf("%d",&grades->student_id);
-    printf("Mark: ");
-    scanf("%d",&grades->student_id);
-  }
   return 0;
 }
