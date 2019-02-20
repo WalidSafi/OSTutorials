@@ -66,6 +66,9 @@ int main() {
   }
 
   grade_students(grades,num_Students);
+  
+  free(professor);
+  free(grades);
 
   return 0;
 }
